@@ -1,5 +1,7 @@
 # valo-recruit-bot
 
+AWS Lambda + API Gateway + DynamoDB を使用したサーバーレス構成のDiscord Botです。
+
 Discord上でVALORANTの募集を作成し、参加人数と参加者一覧をリアルタイムで管理できるBotです。  
 参加・取消・募集終了をボタン操作で行うことができ、募集状況を一目で把握できます。  
 AWS Lambda と DynamoDB を使用したサーバーレス構成で実装しています。
