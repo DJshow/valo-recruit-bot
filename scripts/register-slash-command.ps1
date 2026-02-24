@@ -1,6 +1,6 @@
-$APP_ID   = "Application ID"
-$TOKEN    = "Bot Token"
-$GUILD_ID = "サーバーID"
+$APP_ID   = $env:DISCORD_APP_ID
+$TOKEN    = $env:DISCORD_BOT_TOKEN
+$GUILD_ID = $env:DISCORD_GUILD_ID
 
 $headers = @{ Authorization = "Bot $TOKEN"; "Content-Type" = "application/json" }
 $baseUri = "https://discord.com/api/v10/applications/$APP_ID/guilds/$GUILD_ID/commands"
